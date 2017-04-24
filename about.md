@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Name: miyagaw61
+Age: 0x13
+Team: IPFactory
+Like: CTF(rev,pwn) / MalwareAnalysis
+OS: windows / Linux(ubuntu)
+Editor: vim
+Lang: Jp / Eng / Python / Clang / shellscript(bash)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Twitter: [@miyagaw61](http://twitter.com/miyagaw61)
