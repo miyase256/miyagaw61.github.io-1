@@ -1,0 +1,29 @@
+#defaultCanvas0{
+	top:0; 
+	left:0;
+	position: fixed;  
+	z-index: 0;
+}
+
+body{
+	top:0; 
+	left:0;
+	position: absolute;
+	z-index: 1;
+}
+
+.text{
+	font-size: 5rem;
+	position: absolute;
+	z-index: 2;
+}
+
+.text2{
+	font-size: 3rem;
+	position: absolute;
+	z-index: 2;
+}
+
+.hover-green:hover{
+    color: green;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>miyagaw61.txt</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="text col-md-offset-6 col-md-6">miyagaw61.txt</div>
+			</div>
+		</div>
+		<br class="text" />
+		<div class="container">
+			<div class="row">
+				<div class="text2 hover-green col-md-offset-6" onclick="blog()">blog</div>
+				<div class="text2 hover-green col-md-offset-7" onclick="twitter()">twitter</div>
+				<div class="text2 hover-green col-md-offset-8" onclick="git()">&emsp;git</div>
+				<div class="text2 hover-green col-md-offset-9" onclick="about()">about</div>	
+			</div>
+		</div>
+		<script>
+			function blog(){
+				location.href="http://ta1se1.hatenablog.com";
+			}
+
+			function twitter(){
+				location.href="http://twitter.com/miyagaw61";
+			}
+
+			function git(){
+				location.href="http://github.com/miyagaw61";
+			}
+
+			function about(){
+				location.href="https://miyagaw61.github.io/about";
+			}
+
+			function setup() {
+				createCanvas(displayWidth, displayHeight-120, WEBGL);
+				frameRate(60);
+			}
+
+			function draw() {
+				background(50, 50, 50);
+				push();
+				fill(0, 255, 0);
+				rotateX(frameCount * 0.013);
+				rotateY(frameCount * 0.013);
+				box(250, 250, 250);
+				pop();
+				translate(0, 0, 300);
+				fill(5, 5, 5);
+				rect(-110, 12, 220, 20);
+			}
+		</script>
+	</body>
+</html>
