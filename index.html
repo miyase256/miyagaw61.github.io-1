@@ -18,10 +18,10 @@
 		<br class="text" />
 		<div class="container">
 			<div class="row">
-				<div class="text2 hover-green col-md-offset-6" onclick="blog()">blog</div>
-				<div class="text2 hover-green col-md-offset-7" onclick="twitter()">twitter</div>
-				<div class="text2 hover-green col-md-offset-8" onclick="git()">&emsp;git</div>
-				<div class="text2 hover-green col-md-offset-9" onclick="about()">about</div>	
+				<div class="text2 hover-green col-md-offset-6 col-xs-offset-6" onclick="blog()">blog</div>
+				<div class="text2 hover-green col-md-offset-7 col-xs-offset-7" onclick="twitter()">twitter</div>
+				<div class="text2 hover-green col-md-offset-8 col-xs-offset-8" onclick="git()">&emsp;git</div>
+				<div class="text2 hover-green col-md-offset-9 col-xs-offset-9" onclick="about()">about</div>	
 			</div>
 		</div>
 		<script>
@@ -47,6 +47,7 @@
 				createCanvas(dW, dH, WEBGL);
 				frameRate(60);
 				$('.text').css('top', dH/2);
+				$('.text2').css('top', dH/2);
 			}
 
 			function draw() {
