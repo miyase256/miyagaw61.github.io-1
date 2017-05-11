@@ -58,7 +58,9 @@
 			}
 
 			function setup() {
-				createCanvas(displayWidth+1000, displayHeight+500, WEBGL);
+				dW = $(window).width();				
+				dH = $(window).height();
+				createCanvas(dW, dH, WEBGL);
 				frameRate(60);
 			}
 
