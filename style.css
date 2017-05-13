@@ -1,28 +1,30 @@
 #defaultCanvas0{
 	top:0; 
 	left:0;
-	position: fixed;  
+	position: fixed;
 	z-index: 0;
 	color:black;
 }
 
 body{
+	/*
 	top:0; 
 	left:0;
-	position: absolute;
+	position: static;
 	z-index: 1;
+	*/
 }
 
-.text{
+.central{
 	font-size: 5rem;
-	position: absolute;
+	text-align: center;
+	position: fixed;
 	z-index: 2;
 }
 
-.text2{
+.menu{
 	font-size: 3rem;
-	position: absolute;
-	z-index: 2;
+	text-align: center;
 }
 
 .hover-green:hover{
