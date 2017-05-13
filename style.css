@@ -15,9 +15,7 @@ body{
 	*/
 }
 
-.central{
-	font-size: 5rem;
-	text-align: center;
+.z2{
 	position: fixed;
 	z-index: 2;
 }
@@ -29,4 +27,42 @@ body{
 
 .hover-green:hover{
     color: green;
+}
+
+#icon{
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 400px;
+}
+
+.text{
+	color: white;
+}
+
+.title{
+	font-size: 5rem;
+	text-align: center;
+	color: white;
+}
+
+#about_wrap{
+	background-color: #505050;
+}
+
+.index{
+	text-align: right;
+	font-size: 3rem;
+	color: white;
+}
+
+.value{
+	text-align: left;
+	font-size: 3rem;
+	color: white;
+}
+
+.central{
+	font-size: 3rem;
+	text-align: center;
 }

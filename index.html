@@ -8,41 +8,23 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
 	</head>
 	<body>
-		<div class="container col-md-12 col-xs-12 central title"><div class="row">
-			<div class="col-md-12">miyagaw61.txt</div>
+		<div class="container col-md-12 col-xs-12 z2 title"><div class="row">
+			<div class="col-md-12" style="color: white;">miyagaw61.txt</div>
 		</div></div>
-		<div class="container col-md-12 col-xs-12 central text"><div class="row">
+		<div class="container col-md-12 col-xs-12 z2 text"><div class="row">
 			<br class="title" />
-			<div class="menu hover-green col-md-offset-4 col-md-1 col-xs-offset-2 col-xs-2" onclick="blog()">Blog</div>
-			<div class="menu hover-green col-md-1 col-xs-2" onclick="twitter()">Twitter</div>
-			<div class="menu hover-green col-md-1 col-xs-2" onclick="git()">Github</div>
-			<div class="menu hover-green col-md-1 col-xs-2" onclick="about()">About</div>	
+			<a href="http://ta1se1.hatenablog.com" class="menu hover-green col-md-offset-4 col-md-1 col-xs-offset-2 col-xs-2">Blog</a>
+			<a href="http://twitter.com/miyagaw61" class="menu hover-green col-md-1 col-xs-2" onclick="twitter()">Twitter</a>
+			<a href="https://github.com/miyagaw61" class="menu hover-green col-md-1 col-xs-2" onclick="git()">Github</a>
+			<a href="https://miyagaw61.github.io/about.html" class="menu hover-green col-md-1 col-xs-2" onclick="about()">About</a>	
 		</div></div>
 		<script>
 			var dW = $(window).width();				
 			var dH = $(window).height();
 			$(function(){
-				$('.central').css('position', 'fixed');
-				$('.central').css('top', dH/2.5);
-				$('.text').css('color', 'white');
-				$('.title').css('color', 'white');
+				$('.z2').css('top', dH/2.5);
 				//boxrand = Math.random()*100+200
 			});
-			function blog(){
-				location.href="http://ta1se1.hatenablog.com";
-			}
-
-			function twitter(){
-				location.href="http://twitter.com/miyagaw61";
-			}
-
-			function git(){
-				location.href="http://github.com/miyagaw61";
-			}
-
-			function about(){
-				location.href="https://miyagaw61.github.io/about.html";
-			}
 
 			function setup() {
 				createCanvas(dW, dH, WEBGL);
