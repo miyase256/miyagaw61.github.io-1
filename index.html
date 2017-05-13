@@ -26,6 +26,7 @@
 				$('.central').css('top', dH/2.5);
 				$('.text').css('color', 'white');
 				$('.title').css('color', 'white');
+				//boxrand = Math.random()*100+200
 			});
 			function blog(){
 				location.href="http://ta1se1.hatenablog.com";
@@ -49,13 +50,12 @@
 			}
 
 			function draw() {
-				//background(255, 255, 255);
 				background(50, 50, 50);
 				background(0, 0, 0);
-				//fill(0, 0, 0);
 				fill(50, 50, 50);
 				rotateX(frameCount * 0.013);
 				rotateY(frameCount * 0.013);
+				//box(boxrand, boxrand, boxrand);
 				box(250, 250, 250);
 			}
 		</script>
