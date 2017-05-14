@@ -25,7 +25,19 @@ body{
 	text-align: center;
 }
 
+.hover-green:link{
+    color: white;
+}
+
+.hover-green:visited{
+    color: white;
+}
+
 .hover-green:hover{
+    color: green;
+}
+
+.hover-green:active{
     color: green;
 }
 
@@ -74,3 +86,4 @@ body{
 #aboutIcon{
 	padding: 30px 15px 15px 15px;
 }
+
