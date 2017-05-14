@@ -76,14 +76,15 @@ body{
 
 .central{
 	font-size: 3rem;
+	color: white;
 	text-align: center;
 }
 
 #github{
-	padding: 0px 15px 30px 15px;
+	padding: 0px 15px 10px 15px;
 }
 
 #aboutIcon{
-	padding: 30px 15px 15px 15px;
+	padding: 15px 15px 0px 15px;
 }
 
