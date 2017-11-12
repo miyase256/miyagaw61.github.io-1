@@ -20,6 +20,10 @@ body{
 	z-index: 2;
 }
 
+.front{
+    z-index: 2;
+}
+
 .menu{
 	font-size: 3rem;
 	text-align: center;
