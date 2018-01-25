@@ -7,15 +7,50 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
 	</head>
-	<body id="about_wrap">
-        <div class="container col-md-12 col-xs-12 title"><div class="row">
-            <div class="col-md-12 title">[ ブログ ]</div>
-            <a class="hover-green central col-md-12 col-xs-12 front" href="http://ta1se1.hatenablog.com">
-                <u>Hatena Blog</u>
-            </a>
-            <a id="github" class="hover-green central col-md-12 col-xs-12 front" href="https://qiita.com/miyagaw61" style="margin-bottom:1em;">
-                <u>Qiita</u>
-            </a>
-        </div></div>
+    <!-- <body id="about_wrap"> -->
+    <!--     <div class="container col-md-12 col-xs-12 title"><div class="row">p"> -->
+    <!--         <div class="col-md-12 title">[ ブログ ]</div>p"> -->
+    <!--         <a class="hover-green central col-md-12 col-xs-12 front" href="http://ta1se1.hatenablog.com">p"> -->
+    <!--             <u>Hatena Blog</u>p"> -->
+    <!--         </a>p"> -->
+    <!--         <a id="github" class="hover-green central col-md-12 col-xs-12 front" href="https://qiita.com/miyagaw61" style="margin-bottom:1em;">p"> -->
+    <!--             <u>Qiita</u>p"> -->
+    <!--         </a>p"> -->
+    <!--     </div></div>p"> -->
+	<!-- </body>p"> -->
+	<body>
+		<div class="container col-md-12 col-xs-12 z2 title"><div class="row">
+			<div class="col-md-12" style="color: white;">miyagaw61.txt</div>
+		</div></div>
+		<div class="container col-md-12 col-xs-12 z2 text"><div class="row">
+			<br class="title" />
+			<a href="http://ta1se1.hatenablog.com" class="menu hover-green col-md-offset-4 col-md-1 col-xs-offset-2 col-xs-2">Blog</a>
+			<a href="http://twitter.com/miyagaw61" class="menu hover-green col-md-1 col-xs-2" onclick="twitter()">Twitter</a>
+			<a href="https://github.com/miyagaw61" class="menu hover-green col-md-1 col-xs-2" onclick="git()">GitHub</a>
+			<a href="https://miyagaw61.github.io/about.html" class="menu hover-green col-md-1 col-xs-2" onclick="about()">About</a>	
+		</div></div>
+		<script>
+			var dW = $(window).width();				
+			var dH = $(window).height();
+			$(function(){
+				$('.z2').css('top', dH/2.5);
+				//boxrand = Math.random()*100+200
+			});
+
+			function setup() {
+				createCanvas(dW, dH, WEBGL);
+				frameRate(60);
+			}
+
+			function draw() {
+				background(50, 50, 50);
+				background(0, 0, 0);
+				fill(50, 50, 50);
+				rotateX(frameCount * 0.013);
+				rotateY(frameCount * 0.013);
+				//box(boxrand, boxrand, boxrand);
+				box(250, 250, 250);
+			}
+		</script>
 	</body>
 </html>
