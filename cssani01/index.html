@@ -1,22 +1,33 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>miyagaw61.txt</title>
+    <head>
 		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
+    </head>
+    <body>
         <main id="root">
-        <section id="screen">
-            <div id="title">miyagaw61.txt</div>
-            <section id="links_section">
-                <section id="loading">
-                    <a class="links" href="https://miyagaw61.github.io/blogs.html">Blog</a>
-                    <a class="links" href="http://twitter.com/miyagaw61">Twitter</a>
-                    <a class="links" href="https://github.com/miyagaw61">GitHub</a>
-                    <a class="links" href="https://miyagaw61.github.io/about.html">About</a>
-                </section>
+            <section id="balls">
+                <div></div>
+                <div></div>
+                <div></div>
             </section>
-        </section>
+            <section id="circles">
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+            <section id="toppage">
+                <div id="loading">Now Loading...</div>
+                <div id="name">miyagaw61</div>
+                <!-- <div id="githubio">.github.io</div> -->
+            </section>
         </main>
-	</body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                var name = document.getElementById("name");
+                name.addEventListener("animationend", function(evt) {
+                    var circles = document.getElementById("circles");
+                    circles.style.position = "absolute";
+                });
+            });
+        </script>
+    </body>
 </html>
