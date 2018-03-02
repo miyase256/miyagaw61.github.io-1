@@ -1,0 +1,6 @@
+errno = 0;
+if (fputs(buf, f) == EOF) {
+    if (errno != 0) {
+        /* エラー処理 */
+    }
+}
