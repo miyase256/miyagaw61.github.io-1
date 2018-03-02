@@ -3,7 +3,7 @@ html, body {
   padding: 0; }
 
 #root {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
