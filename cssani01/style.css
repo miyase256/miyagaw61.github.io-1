@@ -181,11 +181,22 @@ html, body {
 
 #name {
   position: absolute;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
   animation: name 7s ease-in-out 0s 1 forwards; }
+
+.name_after {
+  position: absolute;
+  text-align: left;
+  opacity: 0; }
+
+.name_a_after {
+  opacity: 0; }
+
+#name_61 {
+  animation: name_61 7s ease-in-out 0s forwards; }
+
+#name_a {
+  animation: name_a 8s ease-in-out 0s forwards; }
 
 #githubio {
   position: absolute;
@@ -272,12 +283,11 @@ ul :nth-child(5) {
     left: calc(50% - 50vw + (100vw - 70px)/2); }
 
   #name {
-    width: 360px;
+    width: 280px;
     height: 80px;
     font-size: 4rem;
-    top: 50%;
-    left: calc(50% - 360px/2);
-    margin-top: -40px; }
+    top: calc(50% - 80px/2);
+    left: calc(50% - (280px + 80px)/2); }
 
   @keyframes name {
     0% {
@@ -286,10 +296,67 @@ ul :nth-child(5) {
       opacity: 0; }
     85% {
       opacity: 0.3;
-      left: calc(50% - 360px/2); }
+      left: calc(50% - (280px + 80px)/2); }
     100% {
       opacity: 0.6;
       left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2); } }
+  .name_after {
+    width: 80px;
+    height: 80px;
+    font-size: 4rem;
+    top: calc(50% - 80px/2);
+    left: calc(50% - 50vw + (100vw - (280px + 80px))/2 + 280px); }
+
+  @keyframes name_61 {
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 0; }
+    85% {
+      opacity: 0.3;
+      left: calc(50% - 50vw + (100vw - (280px + 80px))/2 + 280px); }
+    100% {
+      opacity: 0.6;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); } }
+  @keyframes name_a {
+    0% {
+      opacity: 0; }
+    85% {
+      left: calc(50% - 50vw + (100vw - (280px + 80px))/2 + 280px); }
+    100% {
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); } }
+  @keyframes name_61_after {
+    0% {
+      opacity: 0.6;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    20% {
+      opacity: 0.6;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    20% {
+      opacity: 0.6;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    80% {
+      opacity: 0;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    100% {
+      opacity: 0.6;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); } }
+  @keyframes name_a_after {
+    0% {
+      opacity: 0;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    20% {
+      opacity: 0;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    40% {
+      opacity: 0;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    80% {
+      opacity: 0.6;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
+    100% {
+      opacity: 0;
+      left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); } }
   #icon {
     width: 150px;
     height: 150px;
@@ -361,18 +428,18 @@ ul :nth-child(5) {
       left: calc(50% - 180px/2); }
     100% {
       opacity: 0.6;
-      left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2 - 4px); } }
+      left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2 - 6px); } }
   #icon {
     width: 80px;
     height: 80px;
     top: calc(50% - 1 * (80px / 2) - 5px);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + (180px - 80px)/2 + 4px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + (180px - 80px)/2 + 6px); }
 
   ul {
     width: 180px;
     height: 180px;
     top: calc(50% - 180px/2);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 4px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 6px); }
 
   ul img {
     width: 36px;
