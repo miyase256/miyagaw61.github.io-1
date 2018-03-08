@@ -72,7 +72,6 @@ html, body {
 #balls div {
   float: left;
   color: black;
-  margin: 5.5px;
   border-radius: 50%;
   background-color: black;
   opacity: 0.2; }
@@ -262,7 +261,9 @@ ul :nth-child(5) {
 
   #balls div {
     width: 12px;
-    height: 12px; }
+    height: 12px;
+    margin: 5.5px;
+    padding: 0 auto; }
 
   #balls {
     width: 70px;
@@ -360,12 +361,12 @@ ul :nth-child(5) {
       left: calc(50% - 180px/2); }
     100% {
       opacity: 0.6;
-      left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2); } }
+      left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2 - 2px); } }
   #icon {
     width: 80px;
     height: 80px;
     top: calc(50% - 1 * (80px / 2) - 5px);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + (180px - 80px)/2); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + (180px - 80px)/2 + 2px); }
 
   ul {
     width: 180px;
