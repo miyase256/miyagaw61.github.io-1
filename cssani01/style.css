@@ -361,18 +361,18 @@ ul :nth-child(5) {
       left: calc(50% - 180px/2); }
     100% {
       opacity: 0.6;
-      left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2 - 2px); } }
+      left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2 - 4px); } }
   #icon {
     width: 80px;
     height: 80px;
     top: calc(50% - 1 * (80px / 2) - 5px);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + (180px - 80px)/2 + 2px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + (180px - 80px)/2 + 4px); }
 
   ul {
     width: 180px;
     height: 180px;
     top: calc(50% - 180px/2);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 2px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 4px); }
 
   ul img {
     width: 36px;
