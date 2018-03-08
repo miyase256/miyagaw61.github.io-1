@@ -161,21 +161,6 @@ html, body {
     margin-left: -0.5vw;
     margin-top: -0.5vw;
     opacity: 0; } }
-#loading {
-  position: absolute;
-  width: 100vw;
-  height: 80px;
-  top: 50%;
-  left: 50%;
-  margin-left: -50vw;
-  margin-top: -10vh;
-  text-align: center;
-  font-size: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: loading 3s linear 0s 1 forwards; }
-
 @keyframes loading {
   0% {
     opacity: 0; }
@@ -303,5 +288,34 @@ ul {
 @keyframes icon {
   100% {
     opacity: 0.8; } }
+@media screen and (min-width: 501px) {
+  #loading {
+    position: absolute;
+    width: 100vw;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50vw;
+    margin-top: -10vh;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: loading 3s linear 0s 1 forwards; } }
+@media screen and (max-width: 500px) {
+  #loading {
+    position: absolute;
+    width: 100vw;
+    height: 80px;
+    top: 90%;
+    left: 90%;
+    margin-left: -50vw;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: loading 3s linear 0s 1 forwards; } }
 
 /*# sourceMappingURL=style.css.map */
