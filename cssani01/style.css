@@ -372,7 +372,7 @@ ul :nth-child(5) {
     width: 180px;
     height: 180px;
     top: calc(50% - 180px/2);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 2px); }
 
   ul img {
     width: 36px;
