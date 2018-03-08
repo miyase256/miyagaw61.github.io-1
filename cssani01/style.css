@@ -420,9 +420,8 @@ ul :nth-child(5) {
     width: 140px;
     height: 40px;
     font-size: 2rem;
-    top: 50%;
-    left: calc(50% - 180px/2);
-    margin-top: -20px; }
+    top: calc(50% - 40px/2);
+    left: calc(50% - 50vw + (100vw - (140px + 40px))/2); }
 
   @keyframes name {
     0% {
@@ -431,7 +430,7 @@ ul :nth-child(5) {
       opacity: 0; }
     85% {
       opacity: 0.3;
-      left: calc(50% - 180px/2); }
+      left: calc(50% - 50vw + (100vw - (140px + 40px))/2); }
     100% {
       opacity: 0.6;
       left: calc(50% + 50vw - 180px - (100vw - (180px - 80px)/2 - 80px - 180px)/2); } }
