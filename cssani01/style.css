@@ -425,11 +425,11 @@ ul :nth-child(5) {
       opacity: 0.6;
       left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px); } }
   .name_after {
-    width: 80px;
+    width: 40px;
     height: 40px;
     font-size: 2rem;
     top: calc(50% - 40px/2);
-    left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 80px)/2 + (180px - 80px)/2 + 80px + 140px); }
+    left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px); }
 
   @keyframes name_61 {
     0% {
@@ -438,29 +438,29 @@ ul :nth-child(5) {
       opacity: 0; }
     85% {
       opacity: 0.3;
-      left: calc(50% - 50vw + (100vw - (140px + 80px))/2 + 140px); }
+      left: calc(50% - 50vw + (100vw - (140px + 40px))/2 + 140px); }
     100% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 80px)/2 + (180px - 80px)/2 + 80px + 140px); } }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px); } }
   @keyframes name_61_after {
     0% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - 140px - 80px)/2 + 1400x); }
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 1400x); }
     15% {
       opacity: 0;
-      left: calc(50% - 50vw + (100vw - 140px - 80px)/2 + 1400x); }
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 1400x); }
     30% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - 140px - 80px)/2 + 1400x); }
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 1400x); }
     60% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - 140px - 80px)/2 + 1400x); }
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 1400x); }
     80% {
       opacity: 0;
-      left: calc(50% - 50vw + (100vw - 140px - 80px)/2 + 1400x); }
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 1400x); }
     100% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - 140px - 80px)/2 + 1400x); } }
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 1400x); } }
   @keyframes name_a_after {
     0% {
       opacity: 0;
