@@ -218,6 +218,7 @@ ul {
 
 ul img {
   position: absolute;
+  z-index: 1;
   margin: 0;
   color: #fff;
   text-align: center;
@@ -253,6 +254,7 @@ ul :nth-child(5) {
   100% {
     opacity: 0.8; } }
 #icon {
+  z-index: 0;
   position: absolute;
   border-radius: 50%;
   opacity: 0;
