@@ -3,8 +3,9 @@ $screen_margin_left: -1 * 100vw / 2;
 $screen_background_color: #fff;
 $screen_border_color: #fff;
 $screen_border_shadow: #444;
-$title_height: 100vh / 10;
+$title_height: 80px;
 $title_margin_top: $screen_margin_top / 10*2;
+$name_margin_top: -1 * $title_height / 2;
 $links_width: 100vw / 4;
 $links_height: $title_height / 1.5;
 $links_margin_top: 0;
@@ -18,6 +19,11 @@ $ball_margin: 5.5px;
 $ball_margin_top: -1 * (($ball_height / 2) + $ball_margin);
 $ball_margin_left: -1 * ($ball_width + ($ball_width / 2) + ($ball_margin * 3));
 $githubio_margin_left: 0px;
+$icon_margin_top: -1 * (150px / 2) - 5px;
+$name_width: 360px;
+$icon_width: 150px;
+$ul_width: 300px;
+$hoge: 330px;
 
 html, body {
     margin: 0;
@@ -25,7 +31,7 @@ html, body {
 }
 
 #root {
-    position: absolute;
+    position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
     background-color: #fff;
@@ -165,7 +171,7 @@ html, body {
 }
 
 #circles {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
 }
@@ -198,7 +204,7 @@ html, body {
         height: 1px;
         margin-left: -0.5px;
         margin-top: -0.5px;
-        opacity: 1;
+        opacity: 0.4;
     }
     99% {
         width: 90vmax;
@@ -250,38 +256,41 @@ html, body {
 #toppage {
     height: 100vh;
     width: 100vw;
-    top: 50%;
-    left: 50%;
+    top: 0%;
+    left: 0%;
 }
 
 #name {
     position: absolute;
-    width: 100vw;
+    width: $name_width;
     height: $title_height;
     top: 50%;
     left: 50%;
-    margin-left: $screen_margin_left;
-    margin-top: $title_margin_top;
+    //margin-left: $screen_margin_left;
+    margin-left: -180px;
+    margin-top: $name_margin_top;
     text-align: center;
     font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: name 6s linear 0s 1 forwards;
+    animation: name 7s ease-in-out 0s 1 forwards;
 }
 
 @keyframes name {
     0% {
         opacity: 0;
     }
-    70% {
+    50% {
         opacity: 0;
     }
-    80% {
-        opacity: 1;
+    85% {
+        opacity: 0.3;
+        margin-left: -180px;
     }
     100% {
-        opacity : 1;
+        opacity: 0.6;
+        margin-left: -105px;
     }
 }
 
@@ -299,4 +308,90 @@ html, body {
     align-items: center;
     justify-content: center;
     animation: name 4.5s linear 0s 1 forwards;
+}
+
+
+//#icons {
+//    position: absolute;
+//    top: 50%;
+//    left: 50%;
+//}
+
+ul {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 300px/2 - 255px + 150px - 150px/2);
+  list-style: none;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+ul img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  //padding: 30px 0 0;
+  //border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: rotate-img 3s linear 7s forwards;
+}
+ul img .fa {
+  font-size: 26px;
+}
+
+ul :nth-child(1) {
+  top: 0;
+  left: calc(300px/2 - 60px/2);
+  animation: appear 0.5s linear 7s forwards;
+}
+ul :nth-child(2) {
+  top: calc(-1 * 60px/2 + 300px/4 - 60px/5);
+  left: calc(-1 * 60px/2 + 300px/4 - 60px/5);
+  animation: appear 0.5s linear 7.15s forwards;
+}
+ul :nth-child(3) {
+  top: calc(300px/2 - 60px/2);
+  left: 0;
+  animation: appear 0.5s linear 7.3s forwards;
+}
+ul :nth-child(4) {
+  bottom: calc(-1 * 60px/2 + 300px/4 - 60px/5);
+  left: calc(-1 * 60px/2 + 300px/4 - 60px/5);
+  border-radius: 50%;
+  animation: appear 0.5s linear 7.45s forwards;
+}
+ul :nth-child(5) {
+  top: 300px - 60px;
+  left: 300px/2 - 60px/2;
+  animation: appear 0.5s linear 7.6s forwards;
+}
+
+ul {
+  animation: rotate 2s ease-out 7s forwards;
+}
+@keyframes appear {
+    100% { opacity: 0.8; }
+}
+
+#icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: $icon_margin_top;
+    margin-left: -1 * 255px;
+    border-radius: 50%;
+    width: $icon_width;
+    height: 150px;
+    opacity: 0;
+    animation: icon 1s ease-in-out 6.5s forwards;
+}
+@keyframes icon {
+    100% {
+        opacity: 0.8;
+    }
 }
