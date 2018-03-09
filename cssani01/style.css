@@ -104,11 +104,11 @@ html, body {
   85% {
     transform: scale(1);
     opacity: 0.2; }
-  100% {
+  99.9%, to {
     transform: scale(1);
     opacity: 0; } }
 @keyframes disable {
-  100% {
+  99.9%, to {
     opacity: 0; } }
 #circles {
   position: absolute;
@@ -148,7 +148,7 @@ html, body {
     margin-left: -45vmax;
     margin-top: -45vmax;
     opacity: 0; }
-  100% {
+  99.9%, to {
     width: 1vw;
     height: 1vw;
     margin-left: -0.5vw;
@@ -171,7 +171,7 @@ html, body {
     opacity: 0.6; }
   90% {
     opacity: 0.6; }
-  100% {
+  99.9%, to {
     opacity: 0; } }
 #toppage {
   height: 100vh;
@@ -183,7 +183,7 @@ html, body {
   position: absolute;
   text-align: left;
   opacity: 0;
-  animation: name 7s ease-in-out 0.1s 1 forwards; }
+  animation: name 7s ease-in-out 0s 1 forwards; }
 
 .name_after {
   position: absolute;
@@ -252,7 +252,7 @@ ul img .fa {
   animation: appear 0.5s linear 7.6s forwards; }
 
 @keyframes appear {
-  100% {
+  99.9%, to {
     opacity: 0.8; } }
 #icon {
   z-index: 0;
@@ -262,7 +262,7 @@ ul img .fa {
   animation: icon 1s ease-in-out 6.5s forwards; }
 
 @keyframes icon {
-  100% {
+  99.9%, to {
     opacity: 0.8; } }
 @media screen and (min-width: 751px) {
   #loading {
@@ -297,7 +297,7 @@ ul img .fa {
     85% {
       opacity: 0.3;
       left: calc(50% - (280px + 80px)/2); }
-    100% {
+    99.9%, to {
       opacity: 0.6;
       left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 - 26.7px); } }
   .name_after {
@@ -315,7 +315,7 @@ ul img .fa {
     85% {
       opacity: 0.3;
       left: calc(50% - 50vw + (100vw - (280px + 80px))/2 + 280px); }
-    100% {
+    99.9%, to {
       opacity: 0.6;
       left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px - 26.7px); } }
   @keyframes name_61_after {
@@ -330,7 +330,7 @@ ul img .fa {
       opacity: 0.6; }
     80% {
       opacity: 0; }
-    100% {
+    99.9%, to {
       opacity: 0.6;
       left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px - 26.7px); } }
   @keyframes name_a_after {
@@ -345,7 +345,7 @@ ul img .fa {
       opacity: 0; }
     80% {
       opacity: 0.6; }
-    100% {
+    99.9%, to {
       opacity: 0;
       left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px - 26.7px); } }
   #icon {
@@ -416,7 +416,7 @@ ul img .fa {
     85% {
       opacity: 0.3;
       left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 13px); }
-    100% {
+    99.9%, to {
       opacity: 0.6;
       left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 10px + 5.2px); } }
   .name_after {
@@ -434,7 +434,7 @@ ul img .fa {
     85% {
       opacity: 0.3;
       left: calc(50% - 50vw + (100vw - (140px + 40px))/2 + 140px - 11px); }
-    100% {
+    99.9%, to {
       opacity: 0.6;
       left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 5.2px); } }
   @keyframes name_61_after {
@@ -449,7 +449,7 @@ ul img .fa {
       opacity: 0.6; }
     80% {
       opacity: 0; }
-    100% {
+    99.9%, to {
       opacity: 0.6;
       left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 5.2px); } }
   @keyframes name_a_after {
@@ -464,7 +464,7 @@ ul img .fa {
       opacity: 0; }
     80% {
       opacity: 0.6; }
-    100% {
+    99.9%, to {
       opacity: 0;
       left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 5.2px); } }
   #icon {
