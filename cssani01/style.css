@@ -198,11 +198,6 @@ html, body {
   text-align: left;
   opacity: 0; }
 
-.name_after {
-  position: absolute;
-  text-align: left;
-  opacity: 0; }
-
 #githubio {
   position: absolute;
   width: 100vw;
