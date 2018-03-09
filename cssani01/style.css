@@ -426,6 +426,7 @@ ul img .fa {
       opacity: 0.6;
       left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 10px + 5.2px); } }
   .name_after {
+    z-index: 1;
     width: 40px;
     height: 40px;
     font-size: 2rem;
