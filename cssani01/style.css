@@ -435,9 +435,9 @@ ul img .fa {
 
   #name_61 {
     opacity: 0;
-    animation: nameA 7s ease-in-out 0s forwards; }
+    animation: name61 7s ease-in-out 0s forwards; }
 
-  @keyframes nameA {
+  @keyframes name61 {
     0% {
       opacity: 0; }
     50% {
