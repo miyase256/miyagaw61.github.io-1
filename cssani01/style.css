@@ -77,13 +77,13 @@ html, body {
   opacity: 0.2; }
 
 #balls :nth-child(1) {
-  animation: ball 3s linear 0s 1 forwards; }
+  animation: ball 3s linear 0.1s 1 forwards; }
 
 #balls :nth-child(2) {
-  animation: ball 3s linear 0.2s 1 forwards; }
+  animation: ball 3s linear 0.3s 1 forwards; }
 
 #balls :nth-child(3) {
-  animation: ball 3s linear 0.4s 1 forwards; }
+  animation: ball 3s linear 0.5s 1 forwards; }
 
 @keyframes ball {
   10% {
