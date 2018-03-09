@@ -440,10 +440,10 @@ ul :nth-child(5) {
       opacity: 0; }
     85% {
       opacity: 0.3;
-      left: calc(50% - 50vw + (100vw - (140px + 40px))/2 + 140px - 15px); }
+      left: calc(50% - 50vw + (100vw - (140px + 40px))/2 + 140px - 13px); }
     100% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 10px); } }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 12px); } }
   @keyframes name_61_after {
     0% {
       opacity: 0.6;
