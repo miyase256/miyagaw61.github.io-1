@@ -193,6 +193,11 @@ html, body {
   text-align: left;
   opacity: 0.2; }
 
+#name_a {
+  position: absolute;
+  text-align: left;
+  opacity: 0.2; }
+
 #githubio {
   position: absolute;
   width: 100vw;
@@ -309,6 +314,14 @@ ul img .fa {
   #name_61 {
     animation: name_61 7s ease-in-out 0s forwards; }
 
+  #name_a {
+    animation: name_a 7s ease-in-out 0s forwards; }
+
+  @keyframes name_a {
+    0% {
+      opacity: 0; }
+    99.9%, to {
+      opacity: 0; } }
   @keyframes name_61 {
     0% {
       opacity: 0; }
@@ -436,6 +449,14 @@ ul img .fa {
     opacity: 0;
     animation: name_61 7s ease-in-out 0s forwards; }
 
+  #name_a {
+    animation: name_a 7s ease-in-out 0s forwards; }
+
+  @keyframes name_a {
+    0% {
+      opacity: 0; }
+    99.9%, to {
+      opacity: 0; } }
   @keyframes name_61 {
     0% {
       opacity: 0; }
