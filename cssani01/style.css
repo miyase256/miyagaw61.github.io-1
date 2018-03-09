@@ -186,7 +186,8 @@ html, body {
 #name {
   position: absolute;
   text-align: left;
-  opacity: 0; }
+  opacity: 0;
+  animation: name 7s ease-in-out 0s forwards; }
 
 .name_after {
   position: absolute;
@@ -408,8 +409,7 @@ ul img .fa {
     height: 40px;
     font-size: 2rem;
     top: calc(50% - 40px/2);
-    left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 15px);
-    animation: name 7s ease-in-out 0s forwards; }
+    left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 15px); }
 
   @keyframes name {
     0% {
