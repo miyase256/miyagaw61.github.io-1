@@ -171,9 +171,10 @@ html, body {
     opacity: 0.6; }
   90% {
     opacity: 0.6; }
-  99.9%, to {
+  98% {
     opacity: 0; }
-  100% {
+  99.9%, to {
+    opacity: 0;
     top: 100%;
     left: 100%; } }
 #toppage {
