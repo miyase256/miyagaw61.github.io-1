@@ -297,10 +297,10 @@ ul img .fa {
     left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
 
   #name_61 {
-    animation: name_61 7s ease-in-out 0s forwards, name_61_after 8s ease-in-out 0s infinite; }
+    animation: name_61 7s ease-in-out 0s forwards, name_61_after 8s ease-in-out 7s infinite; }
 
   #name_a {
-    animation: name_a 7s ease-in-out 0s forwards, name_a_after 8s ease-in-out 0s infinite; }
+    animation: name_a 7s ease-in-out 0s forwards, name_a_after 8s ease-in-out 7s infinite; }
 
   @keyframes name_a {
     0% {
