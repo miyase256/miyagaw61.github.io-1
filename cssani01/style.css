@@ -287,6 +287,7 @@ ul img .fa {
     left: calc(50% - 50vw + (100vw - 70px)/2); }
 
   #name {
+    z-index: 1;
     width: 280px;
     height: 80px;
     font-size: 4rem;
