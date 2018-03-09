@@ -425,13 +425,13 @@ ul :nth-child(5) {
       left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 13px); }
     100% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 10px + 42.3px); } }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 10px + 33.3px); } }
   .name_after {
     width: 40px;
     height: 40px;
     font-size: 2rem;
     top: calc(50% - 40px/2);
-    left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.5px + 42.3px); }
+    left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.5px + 33.3px); }
 
   @keyframes name_61 {
     0% {
@@ -443,11 +443,11 @@ ul :nth-child(5) {
       left: calc(50% - 50vw + (100vw - (140px + 40px))/2 + 140px - 11px); }
     100% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 42.3px); } }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 33.3px); } }
   @keyframes name_61_after {
     0% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 42.3px); }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 33.3px); }
     15% {
       opacity: 0; }
     30% {
@@ -458,11 +458,11 @@ ul :nth-child(5) {
       opacity: 0; }
     100% {
       opacity: 0.6;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 42.3px); } }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 33.3px); } }
   @keyframes name_a_after {
     0% {
       opacity: 0;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 42.3px); }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 33.3px); }
     15% {
       opacity: 0.6; }
     30% {
@@ -473,18 +473,18 @@ ul :nth-child(5) {
       opacity: 0.6; }
     100% {
       opacity: 0;
-      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 42.3px); } }
+      left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.7px + 33.3px); } }
   #icon {
     width: 80px;
     height: 80px;
     top: calc(50% - 1 * (80px / 2) - 5px);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 42.3px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 33.3px); }
 
   ul {
     width: 180px;
     height: 180px;
     top: calc(50% - 180px/2);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 42.3px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 33.3px); }
 
   ul img {
     width: 36px;
