@@ -446,18 +446,17 @@ ul img .fa {
     left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.5px + 5.2px); }
 
   #name_61 {
-    opacity: 0;
-    animation: name_61 7s ease-in-out 0s forwards; }
+    animation: nameA 7s ease-in-out 0s forwards; }
 
   #name_a {
-    animation: name_a 7s ease-in-out 0s forwards; }
+    animation: nameB 7s ease-in-out 0s forwards; }
 
-  @keyframes name_a {
+  @keyframes nameB {
     0% {
       opacity: 0; }
     99.9%, to {
       opacity: 0; } }
-  @keyframes name_61 {
+  @keyframes nameA {
     0% {
       opacity: 0; }
     50% {
