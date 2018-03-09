@@ -410,7 +410,9 @@ ul img .fa {
 
   @keyframes name {
     0% {
-      opacity: 0; }
+      opacity: 0;
+      top: calc(50% - 40px/2);
+      left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 15px); }
     50% {
       opacity: 0; }
     85% {
