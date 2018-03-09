@@ -190,10 +190,12 @@ html, body {
 
 #name_61 {
   position: absolute;
+  text-align: left;
   opacity: 0; }
 
 #name_a {
   position: absolute;
+  text-align: left;
   opacity: 0; }
 
 .name_after {
@@ -314,6 +316,17 @@ ul img .fa {
     top: calc(50% - 80px/2);
     left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
 
+  #name_61 {
+    animation: name_61 7s ease-in-out 0s forwards; }
+
+  #name_a {
+    animation: name_a 7s ease-in-out 0s forwards; }
+
+  @keyframes name_a {
+    0% {
+      opacity: 0; }
+    99.9%, to {
+      opacity: 0; } }
   @keyframes name_61 {
     0% {
       opacity: 0; }
