@@ -478,25 +478,25 @@ ul img .fa {
     top: calc(50% - 180px/2);
     left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 180px)/2 + 5.2px); }
 
-  ul img {
+  ul a img {
     width: 36px;
     height: 36px; }
 
-  ul :nth-child(1) {
+  #twitter {
     left: calc(180px/2 - 36px/2); }
 
-  ul :nth-child(2) {
+  #facebook {
     top: calc(-1 * 36px/2 + 180px/4 - 36px/5);
     left: calc(-1 * 36px/2 + 180px/4 - 36px/5); }
 
-  ul :nth-child(3) {
+  #github {
     top: calc(180px/2 - 36px/2); }
 
-  ul :nth-child(4) {
+  #qiita {
     bottom: calc(-1 * 36px/2 + 180px/4 - 36px/5);
     left: calc(-1 * 36px/2 + 180px/4 - 36px/5); }
 
-  ul :nth-child(5) {
+  #hatena {
     top: 144px;
     left: 72px; } }
 
