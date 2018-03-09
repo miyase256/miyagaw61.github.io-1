@@ -24,11 +24,11 @@
             <img id="icon" src="https://i.imgur.com/s4hjUrI.jpg"></img>
             <section id="icons">
                 <ul>
-                    <img src="https://i.imgur.com/I7C8kCr.png" class="fa fa-twitter" id="twitter"></img>
-                    <img src="https://i.imgur.com/zUTcTIU.jpg" class="fa fa-facebook"></img>
-                    <img src="https://i.imgur.com/I3vjBhe.png" class="fa fa-google-plus"></img>
-                    <img src="https://i.imgur.com/YHrqcT7.png" class="fa fa-pinterest-p"></img>
-                    <img src="https://i.imgur.com/54OVGE4.png" class="fa fa-instagram" id="hatena"></img>
+                    <a href="http://twitter.com/miyagaw61"><img src="https://i.imgur.com/I7C8kCr.png" id="twitter"></img></a>
+                    <a href="https://www.facebook.com/miyagawa.taisei"><img src="https://i.imgur.com/zUTcTIU.jpg" id="facebook"></img></a>
+                    <a href="https://github.com/miyagaw61"><img src="https://i.imgur.com/I3vjBhe.png" id="github"></img></a>
+                    <a href="https://qiita.com/miyagaw61"><img src="https://i.imgur.com/YHrqcT7.png" id="qiita"></img></a>
+                    <a href="http://ta1se1.hatenablog.com/"><img src="https://i.imgur.com/54OVGE4.png" id="hatena"></img></a>
                 </ul>
             </section>
         </main>
@@ -37,21 +37,10 @@
                 var hatena = document.getElementById("hatena");
                 hatena.addEventListener("animationend", function(evt) {
                     var hatena_61 = document.getElementById("hatena_61");
-                    //name_61.classList.add("name_61_after");
                     name_61.style.animation = "name_61_after 8s ease-in-out 0s infinite";
                     var name_a = document.getElementById("name_a");
-                    //name_a.classList.add("name_a_after");
                     name_a.style.animation = "name_a_after 8s ease-in-out 0s infinite";
                 });
-                //var name_a = document.getElementById("name_a");
-                //name_a.addEventListener("animationend", function(evt) {
-                //    var name_61 = document.getElementById("name_61");
-                //    //name_61.classList.add("name_61_after");
-                //    name_61.style.animation = "name_61_after 3s ease-in-out 0s infinite";
-                //    var name_a = document.getElementById("name_a");
-                //    //name_a.classList.add("name_a_after");
-                //    name_a.style.animation = "name_a_after 3s ease-in-out 1.5s infinite";
-                //});
             });
         </script>
     </body>

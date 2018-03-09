@@ -216,7 +216,7 @@ ul {
   margin: 0 auto;
   padding: 0; }
 
-ul img {
+ul a img {
   position: absolute;
   z-index: 1;
   margin: 0;
@@ -228,24 +228,24 @@ ul img {
 ul img .fa {
   font-size: 26px; }
 
-ul :nth-child(1) {
+#twitter {
   top: 0;
   animation: appear 0.5s linear 7s forwards; }
 
-ul :nth-child(2) {
+#facebook {
   top: calc(-1 * 60px/2 + 300px/4 - 60px/5);
   left: calc(-1 * 60px/2 + 300px/4 - 60px/5);
   animation: appear 0.5s linear 7.15s forwards; }
 
-ul :nth-child(3) {
+#github {
   left: 0;
   animation: appear 0.5s linear 7.3s forwards; }
 
-ul :nth-child(4) {
+#qiita {
   border-radius: 50%;
   animation: appear 0.5s linear 7.45s forwards; }
 
-ul :nth-child(5) {
+#hatena {
   top: 240px;
   left: 120px;
   animation: appear 0.5s linear 7.6s forwards; }
@@ -360,25 +360,25 @@ ul :nth-child(5) {
     top: calc(50% - 150px);
     left: calc(50% - 50vw + (100vw - (300px - 150px)/2 - 150px - 300px)/2 - 26.7px); }
 
-  ul img {
+  ul a img {
     width: 60px;
     height: 60px; }
 
-  ul :nth-child(1) {
+  #twitter {
     left: calc(300px/2 - 60px/2); }
 
-  ul :nth-child(2) {
+  #facebook {
     top: calc(-1 * 60px/2 + 300px/4 - 60px/5);
     left: calc(-1 * 60px/2 + 300px/4 - 60px/5); }
 
-  ul :nth-child(3) {
+  #github {
     top: calc(300px/2 - 60px/2); }
 
-  ul :nth-child(4) {
+  #qiita {
     bottom: calc(-1 * 60px/2 + 300px/4 - 60px/5);
     left: calc(-1 * 60px/2 + 300px/4 - 60px/5); }
 
-  ul :nth-child(5) {
+  #hatena {
     top: 240px;
     left: 120px; } }
 @media screen and (max-width: 750px) {
