@@ -196,9 +196,6 @@ html, body {
 .name_a_after {
   opacity: 0; }
 
-#name_61 {
-  animation: name_61 7s ease-in-out 0s forwards; }
-
 #githubio {
   position: absolute;
   width: 100vw;
@@ -434,6 +431,9 @@ ul img .fa {
     font-size: 2rem;
     top: calc(50% - 40px/2);
     left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.5px + 5.2px); }
+
+  #name_61 {
+    animation: name_61 7s ease-in-out 0s forwards; }
 
   @keyframes name_61 {
     0% {
