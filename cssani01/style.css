@@ -191,12 +191,14 @@ html, body {
 #name_61 {
   position: absolute;
   text-align: left;
-  opacity: 0.6; }
+  opacity: 0.2;
+  animation: name_61 7s ease-in-out 0s forwards; }
 
 #name_a {
   position: absolute;
   text-align: left;
-  opacity: 0.6; }
+  opacity: 0.2;
+  animation: name_a 7s ease-in-out 0s forwards; }
 
 #githubio {
   position: absolute;
