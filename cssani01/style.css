@@ -196,7 +196,7 @@ html, body {
 #name_a {
   position: absolute;
   text-align: left;
-  opacity: 0; }
+  opacity: 0.6; }
 
 #githubio {
   position: absolute;
