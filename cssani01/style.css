@@ -186,8 +186,7 @@ html, body {
 #name {
   position: absolute;
   text-align: left;
-  opacity: 0;
-  animation: name 7s ease-in-out 0s forwards; }
+  opacity: 0; }
 
 .name_after {
   position: absolute;
@@ -292,7 +291,8 @@ ul img .fa {
     height: 80px;
     font-size: 4rem;
     top: calc(50% - 80px/2);
-    left: calc(50% - (280px + 80px)/2); }
+    left: calc(50% - (280px + 80px)/2);
+    animation: name 7s ease-in-out 0s forwards; }
 
   @keyframes name {
     0% {
@@ -407,11 +407,13 @@ ul img .fa {
     margin: 1px; }
 
   #name {
+    z-index: 1;
     width: 140px;
     height: 40px;
     font-size: 2rem;
     top: calc(50% - 40px/2);
-    left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 15px); }
+    left: calc(50% - 50vw + (100vw - 140px - 40px)/2 + 15px);
+    animation: name 7s ease-in-out 0s forwards; }
 
   @keyframes name {
     0% {
