@@ -196,7 +196,7 @@ html, body {
 #name_a {
   position: absolute;
   text-align: left;
-  opacity: 0.2; }
+  opacity: 0; }
 
 ul {
   position: absolute;
