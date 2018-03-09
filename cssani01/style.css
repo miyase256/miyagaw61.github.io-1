@@ -188,6 +188,14 @@ html, body {
   text-align: left;
   opacity: 0; }
 
+#name_61 {
+  position: absolute;
+  opacity: 0; }
+
+#name_a {
+  position: absolute;
+  opacity: 0; }
+
 .name_after {
   position: absolute;
   text-align: left;
