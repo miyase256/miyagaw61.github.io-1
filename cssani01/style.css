@@ -431,7 +431,7 @@ ul :nth-child(5) {
     height: 40px;
     font-size: 2rem;
     top: calc(50% - 40px/2);
-    left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 10px); }
+    left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 14px); }
 
   @keyframes name_61 {
     0% {
