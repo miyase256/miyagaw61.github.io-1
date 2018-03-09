@@ -449,7 +449,7 @@ ul img .fa {
 
   #name_61 {
     opacity: 1;
-    animation: name_61 7s ease-in-out 0.1s forwards; }
+    animation: name_61 7s ease-in-out 0s forwards; }
 
   @keyframes name_61 {
     0% {
