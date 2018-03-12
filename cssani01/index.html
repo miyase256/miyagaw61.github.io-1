@@ -22,6 +22,17 @@
                 <div class="name_after" id="name_a">a</div>
             </section>
             <img id="icon" src="https://i.imgur.com/s4hjUrI.jpg"></img>
+            <a href="javascript:void(0)" id="about">
+                <span id="img_fadein">
+                    <img src="https://imgur.com/Pr90kkZ.png"></img>
+                </span>
+                <span id="about_fadein">
+                    <div class="about_and_border" id="about_text">About</div>
+                </span>
+                <span id="border_fadein">
+                    <div class="about_and_border" id="about_border"></div>
+                </span>
+            </a>
             <section id="icons">
                 <ul>
                     <a href="http://twitter.com/miyagaw61"><img src="https://i.imgur.com/I7C8kCr.png" id="twitter"></img></a>
@@ -33,11 +44,18 @@
             </section>
         </main>
         <script>
+            function sleep(time, callback){
+              setTimeout(callback, time);
+            }
+            sleep(9000, function (){
+                var about = document.getElementById("about");
+                about.href = "https://miyagaw61.github.io/about";
+            });
+            //document.addEventListener("DOMContentLoaded", function(){
             //var name_61 = document.getElementById("name_61");
             //name_61.style.animation = "name_61 7s ease-in-out 0s forwards";
             //var name_a = document.getElementById("name_a");
             //name_a.style.animation = "name_a 7s ease-in-out 0s forwards";
-            //document.addEventListener("DOMContentLoaded", function(){
             //    var hatena = document.getElementById("hatena");
             //    hatena.addEventListener("animationend", function(evt) {
             //        var name_61 = document.getElementById("name_61");

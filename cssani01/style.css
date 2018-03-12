@@ -251,6 +251,119 @@ ul img .fa {
 @keyframes icon {
   99.9%, to {
     opacity: 0.8; } }
+@keyframes wait_a {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+#about {
+  position: absolute; }
+
+#about_fadein {
+  position: absolute;
+  animation: wait_a 7s linear 0s forwards, about_fadein 2s ease-out 7s forwards; }
+
+#img_fadein {
+  position: absolute;
+  animation: wait_a 9.2s linear 0s forwards, img_fadein 0.25s ease-out 9.2s forwards; }
+
+@keyframes img_fadein {
+  0% {
+    opacity: 0;
+    left: 0px; }
+  15% {
+    opacity: 0.5; }
+  33% {
+    opacity: 1;
+    left: -5px; }
+  66% {
+    left: 5px; }
+  99.9%, to {
+    left: 0px; } }
+#border_fadein {
+  animation: wait_a 9.2s linear 0s forwards, border_fadein 1s linear 9.2s forwards; }
+
+@keyframes border_fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+#about img {
+  position: absolute;
+  float: left;
+  opacity: 0.3;
+  transform: rotate(90deg);
+  animation: about_hover_img_out 0.5s linear 0s forwards; }
+
+.about_and_border {
+  position: absolute;
+  left: 35px;
+  color: red;
+  height: 50px;
+  float: left; }
+
+#about_text {
+  z-index: 1;
+  animation: hovering_out 0.5s ease 0s forwards;
+  opacity: 0.3; }
+
+#about_border {
+  z-index: 0;
+  width: 300px;
+  max-width: 0px;
+  border-bottom: 2px solid red;
+  animation: about_border_out 0.5s cubic-bezier(0, 0.2, 0.6, 1) 0s forwards;
+  opacity: 0.4; }
+
+#about div:visited {
+  color: red; }
+
+#about:hover > #about_fadein #about_text {
+  animation: hovering 0.5s ease 0s forwards; }
+
+@keyframes hovering {
+  0% {
+    opacity: 0.5; }
+  99.9%, to {
+    opacity: 0.75; } }
+@keyframes hovering_out {
+  0% {
+    opacity: 0.75; }
+  99.9%, to {
+    opacity: 0.5; } }
+#about:hover > #border_fadein #about_border {
+  animation: about_border 0.5s cubic-bezier(0, 0.2, 0.6, 1) 0s forwards; }
+
+@keyframes about_border {
+  0% {
+    max-width: 0px; }
+  99.9%, to {
+    max-width: 300px; } }
+@keyframes about_border_out {
+  0% {
+    max-width: 300px; }
+  99.9%, to {
+    max-width: 0px; } }
+#about:hover > #img_fadein img {
+  animation: about_hover_img 0.25s linear 0s forwards; }
+
+@keyframes about_hover_img {
+  0% {
+    left: 0px; }
+  33% {
+    left: -5px; }
+  66% {
+    left: 5px; }
+  99.9%, to {
+    left: 0px;
+    opacity: 0.75; } }
+@keyframes about_hover_img_out {
+  0% {
+    left: 0px;
+    opacity: 0.75; }
+  99.9%, to {
+    left: 0px;
+    opacity: 0.3; } }
 @media screen and (min-width: 751px) {
   #loading {
     height: 80px;
@@ -307,11 +420,6 @@ ul img .fa {
       opacity: 0.6; }
     100% {
       opacity: 0.6; } }
-  @keyframes wait_a {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 0; } }
   @keyframes name_a {
     0% {
       opacity: 0; }
@@ -395,7 +503,37 @@ ul img .fa {
 
   #hatena {
     top: 240px;
-    left: 120px; } }
+    left: 120px; }
+
+  #about {
+    width: 160px;
+    height: 35px;
+    top: calc(50% + 80px/2 + 16px);
+    left: calc(50% - 50vw + (100vw - (300px - 150px)/2 - 150px - 280px - 80px)/2 + (300px - 150px)/2 + 150px + 280px - 30px - 120px + 27px); }
+
+  @keyframes about_fadein {
+    0% {
+      left: 200px;
+      opacity: 0; }
+    50% {
+      left: 200px;
+      opacity: 0; }
+    90% {
+      opacity: 0.7; }
+    100% {
+      left: -165px;
+      opacity: 1; } }
+  #about img {
+    width: 35px;
+    height: 35px; }
+
+  .about_and_border {
+    top: -12px;
+    font: 400 2.5rem 'Lato', sans-serif; }
+
+  #about_text {
+    left: 200px;
+    width: 120px; } }
 @media screen and (max-width: 750px) {
   #loading {
     height: 30px;
@@ -523,6 +661,38 @@ ul img .fa {
 
   #hatena {
     top: 144px;
-    left: 72px; } }
+    left: 72px; }
+
+  #about {
+    width: 80px;
+    height: 20px;
+    top: calc(50% + 40px/2 + 8px);
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 20px - 60px + 10px); }
+
+  @keyframes about_fadein {
+    0% {
+      left: 200px;
+      opacity: 0; }
+    50% {
+      left: 200px;
+      opacity: 0; }
+    90% {
+      opacity: 0.7; }
+    100% {
+      left: -80px;
+      opacity: 1; } }
+  #about img {
+    width: 20px;
+    height: 20px; }
+
+  .about_and_border {
+    position: absolute;
+    top: -6px;
+    font: 400 1.3rem 'Lato', sans-serif; }
+
+  #about_text {
+    left: 100px;
+    height: 20px;
+    width: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
