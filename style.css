@@ -410,10 +410,10 @@ ul img .fa {
     left: calc(50% + 50vw - 300px - (100vw - (300px - 150px)/2 - 150px - 300px)/2 + 280px); }
 
   #name_61 {
-    animation: wait_a 1s linear 0s forwards, name_61 7s ease-in-out 1s forwards, wait_61 1s ease 8s forwards, name_61_after 8s ease-in-out 9s infinite; }
+    animation: name_61 7s ease-in-out 0s forwards, wait_61 2s ease 7s forwards, name_61_after 8s ease-in-out 9s infinite; }
 
   #name_a {
-    animation: wait_a 1s linear 0s forwards, name_a 7s ease-in-out 1s forwards, wait_a 1s ease 8s forwards, name_a_after 8s ease-in-out 9s infinite; }
+    animation: name_a 7s ease-in-out 0s forwards, wait_a 2s ease 7s forwards, name_a_after 8s ease-in-out 9s infinite; }
 
   @keyframes wait_61 {
     0% {
@@ -585,10 +585,10 @@ ul img .fa {
     left: calc(50% - 50vw  + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 13.5px + 5.2px); }
 
   #name_61 {
-    animation: wait_a 1s linear 0s forwards, name_61 7s ease-in-out 1s forwards, wait_61 1s ease 8s forwards, name_61_after 8s ease-in-out 9s infinite; }
+    animation: name_61 7s ease-in-out 1s forwards, wait_61 2s ease 7s forwards, name_61_after 8s ease-in-out 9s infinite; }
 
   #name_a {
-    animation: wait_a 1s linear 0s forwards, name_a 7s ease-in-out 1s forwards, wait_a 1s ease 8s forwards, name_a_after 8s ease-in-out 9s infinite; }
+    animation: name_a 7s ease-in-out 1s forwards, wait_a 2s ease 7s forwards, name_a_after 8s ease-in-out 9s infinite; }
 
   @keyframes wait_61 {
     0% {
