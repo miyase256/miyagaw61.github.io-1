@@ -727,7 +727,7 @@ ul img .fa {
     top: 0.5px; }
 
   #img_fadein {
-    animation: wait_a 9s linear 0s forwards, img_fadein 0.25s ease-out 9s forwards; }
+    animation: wait_a 8.7s linear 0s forwards, img_fadein 0.25s ease-out 8.7s forwards; }
 
   @keyframes img_fadein {
     0% {
