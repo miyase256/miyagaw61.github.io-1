@@ -148,7 +148,6 @@ html, body {
     opacity: 0; } }
 #loading {
   position: absolute;
-  width: 100vw;
   left: calc(50% - 50vw);
   text-align: center;
   display: flex;
@@ -340,7 +339,9 @@ ul img .fa {
 
   #loading {
     height: 80px;
+    width: 354px;
     top: calc(50% - 80px);
+    left: calc(50% - 50vw + (100vw - 354px)/2);
     font-size: 3rem;
     animation: loading 3s linear 0s forwards; }
 
@@ -352,11 +353,9 @@ ul img .fa {
     90% {
       opacity: 0.6; }
     98% {
-      opacity: 0;
-      left: calc(50% - 50vw); }
+      opacity: 0; }
     99.9%, to {
-      opacity: 0;
-      left: 100%; } }
+      opacity: 0; } }
   #balls div {
     width: 12px;
     height: 12px;
@@ -544,10 +543,23 @@ ul img .fa {
 @media screen and (max-width: 750px) {
   #loading {
     height: 30px;
+    width: 240px;
     top: calc(50% - 30px/2);
     font-size: 2rem;
-    animation: loading 2s linear 0s forwards;
-    left: calc(50% - 50vw + 10px); }
+    animation: loading 3s linear 0s forwards;
+    left: calc(50% - 50vw + (100vw - 240px)/2); }
+
+  #progress {
+    position: absolute;
+    height: 30px;
+    width: 240px;
+    top: calc(50% - 30px/2 + 10px);
+    left: calc(50% - 50vw + (100vw - 240px)/2);
+    font-size: 2rem;
+    animation: progress 3s linear 0s forwards;
+    border-bottom: 2px solid black;
+    opacity: 0.5;
+    max-width: 0px; }
 
   @keyframes loading {
     0% {
@@ -557,6 +569,21 @@ ul img .fa {
     80% {
       opacity: 0.6; }
     99.9%, to {
+      opacity: 0; } }
+  @keyframes progress {
+    0% {
+      max-width: 0%;
+      opacity: 0; }
+    40% {
+      max-width: 10%;
+      opacity: 0.6; }
+    60% {
+      max-width: 35%; }
+    80% {
+      opacity: 0.6;
+      max-width: 49%; }
+    100% {
+      max-width: 100%;
       opacity: 0; } }
   #balls div {
     width: 6px;
