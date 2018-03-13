@@ -544,16 +544,16 @@ ul img .fa {
   #loading {
     height: 30px;
     width: 240px;
-    top: calc(50% - 30px/2);
+    top: calc(50% - 30px/2 - 10px);
     font-size: 2rem;
     animation: loading 3s linear 0s forwards;
-    left: calc(50% - 50vw + (100vw - 240px)/2); }
+    left: calc(50% - 50vw + (100vw - 240px)/2 + 15px); }
 
   #progress {
     position: absolute;
     height: 30px;
     width: 240px;
-    top: calc(50% - 30px/2 + 10px);
+    top: calc(50% - 30px/2);
     left: calc(50% - 50vw + (100vw - 240px)/2);
     font-size: 2rem;
     animation: progress 3s linear 0s forwards;
