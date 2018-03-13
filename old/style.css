@@ -1,0 +1,94 @@
+#defaultCanvas0{
+	top:0; 
+	left:0;
+	position: fixed;
+	z-index: 0;
+	color:black;
+}
+
+body{
+	/*
+	top:0; 
+	left:0;
+	position: static;
+	z-index: 1;
+	*/
+}
+
+.z2{
+	position: fixed;
+	z-index: 2;
+}
+
+.front{
+    z-index: 2;
+}
+
+.menu{
+	font-size: 3rem;
+	text-align: center;
+}
+
+.hover-green:link{
+    color: white;
+}
+
+.hover-green:visited{
+    color: white;
+}
+
+.hover-green:hover{
+    color: green;
+}
+
+.hover-green:active{
+    color: green;
+}
+
+#icon{
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 400px;
+}
+
+.text{
+	color: white;
+}
+
+.title{
+	font-size: 5rem;
+	text-align: center;
+	color: white;
+}
+
+#about_wrap{
+	background-color: #505050;
+}
+
+.index{
+	text-align: right;
+	font-size: 3rem;
+	color: white;
+}
+
+.value{
+	text-align: left;
+	font-size: 3rem;
+	color: white;
+}
+
+.central{
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+}
+
+#github{
+	padding: 0px 15px 10px 15px;
+}
+
+#aboutIcon{
+	padding: 15px 15px 0px 15px;
+}
+
