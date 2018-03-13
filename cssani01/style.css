@@ -261,11 +261,11 @@ ul img .fa {
 
 #about_fadein {
   position: absolute;
-  animation: wait_a 7s linear 0s forwards, about_fadein 2s ease-out 7s forwards; }
+  animation: wait_a 6.5s linear 0s forwards, about_fadein 2s ease-out 6.5s forwards; }
 
 #img_fadein {
   position: absolute;
-  animation: wait_a 9.2s linear 0s forwards, img_fadein 0.25s ease-out 9.2s forwards; }
+  animation: wait_a 8.5s linear 0s forwards, img_fadein 0.25s ease-out 8.5s forwards; }
 
 @keyframes img_fadein {
   0% {
@@ -518,6 +518,8 @@ ul img .fa {
     50% {
       left: 200px;
       opacity: 0; }
+    70% {
+      opacity: 0; }
     90% {
       opacity: 0.7; }
     100% {
@@ -675,6 +677,8 @@ ul img .fa {
       opacity: 0; }
     50% {
       left: 200px;
+      opacity: 0; }
+    70% {
       opacity: 0; }
     90% {
       opacity: 0.7; }
