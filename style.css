@@ -77,13 +77,13 @@ html, body {
   opacity: 0.2; }
 
 #balls :nth-child(1) {
-  animation: wait_balls 0.2s linear 0s forwards, ball 1s linear 0s 3 forwards, ball_end 0.5s ease 3.1s forwards; }
+  animation: wait_balls 0.3s linear 0s forwards, ball 1s linear 0s 3 forwards, ball_end 0.5s ease 3.2s forwards; }
 
 #balls :nth-child(2) {
-  animation: wait_balls 0.2s linear 0s forwards, ball 1s linear 0.4s 3 forwards,  ball_end 0.5s ease 3.3s forwards; }
+  animation: wait_balls 0.3s linear 0s forwards, ball 1s linear 0.4s 3 forwards,  ball_end 0.5s ease 3.4s forwards; }
 
 #balls :nth-child(3) {
-  animation: wait_balls 0.2s linear 0s forwards, ball 1s linear 0.6s 3 forwards,  ball_end 0.5s ease 3.5s forwards; }
+  animation: wait_balls 0.3s linear 0s forwards, ball 1s linear 0.6s 3 forwards,  ball_end 0.5s ease 3.6s forwards; }
 
 @keyframes wait_balls {
   0% {
