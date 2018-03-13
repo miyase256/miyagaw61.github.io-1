@@ -577,7 +577,7 @@ ul img .fa {
       max-width: 0%;
       opacity: 0; }
     40% {
-      max-width: 10%;
+      max-width: 20%;
       opacity: 0.6; }
     60% {
       max-width: 35%; }
@@ -723,7 +723,7 @@ ul img .fa {
     left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 20px - 60px + 5px); }
 
   #about_fadein {
-    animation: wait_a 6.5s linear 0s forwards, about_fadein 1s ease-out 6.5s forwards; }
+    animation: wait_a 7.5s linear 0s forwards, about_fadein 1s ease-out 7.5s forwards; }
 
   @keyframes about_fadein {
     0% {
