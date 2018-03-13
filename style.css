@@ -546,7 +546,8 @@ ul img .fa {
     height: 30px;
     top: calc(50% - 30px/2);
     font-size: 2rem;
-    animation: loading 2s linear 0s forwards; }
+    animation: loading 2s linear 0s forwards;
+    left: calc(50% - 50vw + 5px); }
 
   @keyframes loading {
     0% {
