@@ -674,7 +674,7 @@ ul img .fa {
     width: 80px;
     height: 20px;
     top: calc(50% + 40px/2 + 8px);
-    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 20px - 60px + 10px); }
+    left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 20px - 60px + 5px); }
 
   @keyframes about_fadein {
     0% {
