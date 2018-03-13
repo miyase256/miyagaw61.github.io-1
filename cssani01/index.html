@@ -1,0 +1,69 @@
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <main id="root">
+            <section id="balls">
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+            <section id="circles">
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+            <section id="toppage">
+                <div id="loading">Now Loading...</div>
+                <div id="name">miyagaw</div>
+                <div class="name_after" id="name_61">61</div>
+                <div class="name_after" id="name_a">a</div>
+            </section>
+            <img id="icon" src="https://i.imgur.com/s4hjUrI.jpg"></img>
+            <a href="javascript:void(0)" id="about" target="_blank">
+                <span id="img_fadein">
+                    <img src="https://imgur.com/Pr90kkZ.png"></img>
+                </span>
+                <span id="about_fadein">
+                    <div class="about_and_border" id="about_text">About</div>
+                </span>
+                <span id="border_fadein">
+                    <div class="about_and_border" id="about_border"></div>
+                </span>
+            </a>
+            <section id="icons">
+                <ul>
+                    <a href="http://twitter.com/miyagaw61" target="_blank"><img src="https://i.imgur.com/I7C8kCr.png" id="twitter"></img></a>
+                    <a href="https://www.facebook.com/miyagawa.taisei" target="_blank"><img src="https://i.imgur.com/zUTcTIU.jpg" id="facebook"></img></a>
+                    <a href="https://github.com/miyagaw61" target="_blank"><img src="https://i.imgur.com/I3vjBhe.png" id="github"></img></a>
+                    <a href="https://qiita.com/miyagaw61" target="_blank"><img src="https://i.imgur.com/YHrqcT7.png" id="qiita"></img></a>
+                    <a href="http://ta1se1.hatenablog.com/" target="_blank"><img src="https://i.imgur.com/54OVGE4.png" id="hatena"></img></a>
+                </ul>
+            </section>
+        </main>
+        <script>
+            function sleep(time, callback){
+              setTimeout(callback, time);
+            }
+            sleep(9000, function (){
+                var about = document.getElementById("about");
+                about.href = "https://miyagaw61.github.io/old/about.html";
+            });
+            //document.addEventListener("DOMContentLoaded", function(){
+            //var name_61 = document.getElementById("name_61");
+            //name_61.style.animation = "name_61 7s ease-in-out 0s forwards";
+            //var name_a = document.getElementById("name_a");
+            //name_a.style.animation = "name_a 7s ease-in-out 0s forwards";
+            //    var hatena = document.getElementById("hatena");
+            //    hatena.addEventListener("animationend", function(evt) {
+            //        var name_61 = document.getElementById("name_61");
+            //        name_61.style.animation = "name_61_after 8s ease-in-out 0s infinite";
+            //        var name_a = document.getElementById("name_a");
+            //        name_a.style.animation = "name_a_after 8s ease-in-out 0s infinite";
+            //    });
+            //});
+        </script>
+    </body>
+</html>
