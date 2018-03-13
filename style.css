@@ -237,8 +237,7 @@ ul img .fa {
   position: absolute; }
 
 #about_fadein {
-  position: absolute;
-  animation: wait_a 6.5s linear 0s forwards, about_fadein 2s ease-out 6.5s forwards; }
+  position: absolute; }
 
 #img_fadein {
   position: absolute; }
@@ -498,6 +497,9 @@ ul img .fa {
     top: calc(50% + 80px/2 + 16px);
     left: calc(50% - 50vw + (100vw - (300px - 150px)/2 - 150px - 280px - 80px)/2 + (300px - 150px)/2 + 150px + 280px - 30px - 120px + 27px); }
 
+  #about_fadein {
+    animation: wait_a 6.5s linear 0s forwards, about_fadein 2s ease-out 6.5s forwards; }
+
   @keyframes about_fadein {
     0% {
       left: 200px;
@@ -719,6 +721,9 @@ ul img .fa {
     height: 20px;
     top: calc(50% + 40px/2 + 8px);
     left: calc(50% - 50vw + (100vw - (180px - 80px)/2 - 80px - 140px - 40px)/2 + (180px - 80px)/2 + 80px + 140px - 20px - 60px + 5px); }
+
+  #about_fadein {
+    animation: wait_a 6.5s linear 0s forwards, about_fadein 1s ease-out 6.5s forwards; }
 
   @keyframes about_fadein {
     0% {
