@@ -722,10 +722,10 @@ ul img .fa {
 
   @keyframes about_fadein {
     0% {
-      left: 200px;
+      left: 100px;
       opacity: 0; }
     50% {
-      left: 200px;
+      left: 100px;
       opacity: 0; }
     70% {
       opacity: 0; }
