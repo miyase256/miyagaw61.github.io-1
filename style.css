@@ -46,6 +46,7 @@
     --name_height: 40px;
     --name_width: 140px;
     --name_width: 117px;
+    --name_font_size: 2rem;
     --name_font_size: 32px;
     --icon_width: 80px;
     --icon_height: 80px;
@@ -235,7 +236,7 @@ html, body {
 
 #name {
   position: absolute;
-  text-align: left;
+  text-align: center;
   opacity: 0;
   height: var(--name_height);
   width: var(--name_width);
