@@ -376,7 +376,6 @@ ul a img {
 }
 @media screen and (min-width: 751px) {
   #twitter:hover {
-    opacity: 0.8;
     width: calc(var(--icons_width) * 1.1);
     height: calc(var(--icons_height) * 1.1);
     top: calc(0 - (var(--icons_height) * 1.1 - var(--icons_height))/2);
@@ -394,7 +393,6 @@ ul a img {
 }
 @media screen and (min-width: 751px) {
   #facebook:hover {
-    opacity: 0.8;
     width: calc(var(--icons_width) * 1.1);
     height: calc(var(--icons_height) * 1.1);
     top: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
@@ -409,7 +407,6 @@ ul a img {
 }
 @media screen and (min-width: 751px) {
   #github:hover {
-    opacity: 0.8;
     width: calc(var(--icons_width) * 1.1);
     height: calc(var(--icons_height) * 1.1);
     top: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
@@ -428,7 +425,6 @@ ul a img {
 }
 @media screen and (min-width: 751px) {
   #qiita:hover {
-    opacity: 0.8;
     width: calc(var(--icons_width) * 1.1);
     height: calc(var(--icons_height) * 1.1);
     top: calc(calc(var(--ul_height) - var(--icons_height)/2 - var(--ul_height)/4 + var(--icons_height)/5) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
@@ -443,7 +439,6 @@ ul a img {
 }
 @media screen and (min-width: 751px) {
   #hatena:hover {
-    opacity: 0.8;
     width: calc(var(--icons_width) * 1.1);
     height: calc(var(--icons_height) * 1.1);
     top: calc(calc(var(--ul_width) - var(--icons_width)) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
