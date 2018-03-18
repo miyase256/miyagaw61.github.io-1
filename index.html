@@ -36,15 +36,15 @@
             </a>
             <section id="icons">
                 <ul>
-                    <a href="http://twitter.com/miyagaw61" target="_blank"><img src="https://i.imgur.com/I7C8kCr.png" id="twitter"></img></a>
+                    <a href="javascript:void(0)" id="twitter_a" target="_blank"><img src="https://i.imgur.com/I7C8kCr.png" id="twitter"></img></a>
                     <div id="twitter-circle"></div>
-                    <a href="https://www.facebook.com/miyagawa.taisei" target="_blank"><img src="https://i.imgur.com/zUTcTIU.jpg" id="facebook"></img></a>
+                    <a href="https://www.facebook.com/miyagawa.taisei" id="facebook_a" target="_blank"><img src="https://i.imgur.com/zUTcTIU.jpg" id="facebook"></img></a>
                     <div id="facebook-circle"></div>
-                    <a href="https://github.com/miyagaw61" target="_blank"><img src="https://i.imgur.com/I3vjBhe.png" id="github"></img></a>
+                    <a href="https://github.com/miyagaw61" id="github_a" target="_blank"><img src="https://i.imgur.com/I3vjBhe.png" id="github"></img></a>
                     <div id="github-circle"></div>
-                    <a href="https://qiita.com/miyagaw61" target="_blank"><img src="https://i.imgur.com/YHrqcT7.png" id="qiita"></img></a>
+                    <a href="https://qiita.com/miyagaw61" id="qiita_a" target="_blank"><img src="https://i.imgur.com/YHrqcT7.png" id="qiita"></img></a>
                     <div id="qiita-circle"></div>
-                    <a href="http://ta1se1.hatenablog.com/" target="_blank"><img src="https://i.imgur.com/54OVGE4.png" id="hatena"></img></a>
+                    <a href="http://ta1se1.hatenablog.com/" id="hatena_a" target="_blank"><img src="https://i.imgur.com/54OVGE4.png" id="hatena"></img></a>
                     <div id="hatena-circle"></div>
                 </ul>
             </section>
@@ -53,22 +53,26 @@
             function sleep(time, callback){
               setTimeout(callback, time);
             }
-            //sleep(7500, function() {
-            //    document.documentElement.style.setProperty('--twitter_animation', 'stay 0.1s linear 0s forwards');
-            //});
-            //sleep(7650, function() {
-            //    document.documentElement.style.setProperty('--facebook_animation', 'stay 0.1s linear 0s forwards');
-            //});
-            //sleep(7800, function() {
-            //    document.documentElement.style.setProperty('--github_animation', 'stay 0.1s linear 0s forwards');
-            //});
-            //sleep(7950, function() {
-            //    document.documentElement.style.setProperty('--qiita_animation', 'stay 0.1s linear 0s forwards');
-            //});
-            //sleep(8100, function() {
-            //    document.documentElement.style.setProperty('--hatena_animation', 'stay 0.1s linear 0s forwards');
-            //});
-            var css = "a:link{color:#00f} a:visited{color:#518} a:hover{color:#f00}";
+            sleep(7500, function() {
+                var twitter = document.getElementById("twitter_a");
+                twitter.href = "https://twitter.com/miyagaw61/";
+            });
+            sleep(7650, function() {
+                var facebook = document.getElementById("facebook_a");
+                facebook.href = "https://www.facebook.com/miyagawa.taisei";
+            });
+            sleep(7800, function() {
+                var github = document.getElementById("github_a");
+                github.href = "https://github.com/miyagaw61";
+            });
+            sleep(7950, function() {
+                var qiita = document.getElementById("qiita_a");
+                qiita.href = "https://qiita.com/miyagaw61";
+            });
+            sleep(8100, function() {
+                var hatena = document.getElementById("hatena_a");
+                hatena.href = "http://ta1se1.hatenablog.com/";
+            });
             sleep(8500, function (){
                 var about = document.getElementById("about");
                 about.href = "https://miyagaw61.github.io/old/about.html";
