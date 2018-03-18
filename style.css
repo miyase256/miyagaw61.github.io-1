@@ -755,6 +755,7 @@ ul a img {
 .name_after {
   width: var(--name_after_width);
   height: var(--name_after_height);
+  text-align: center;
   font-size: 4rem;
   top: calc(50% - var(--name_after_height)/2);
   left: calc(50% - 50vw + calc((100vw - (var(--ul_width) - var(--icon_width))/2 - var(--icon_width) - var(--name_width) - var(--name_after_width))/2) + calc((var(--ul_width) - var(--icon_width))/2) + var(--icon_width) + var(--name_width));
