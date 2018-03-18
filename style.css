@@ -44,13 +44,13 @@
     --loading_height: 30px;
     --loading_width: 240px;
     --name_height: 40px;
-    --name_width: 117px;
+    --name_width: 114px;
     --name_font_size: 2rem;
     --name_font_size: 32px;
     --icon_width: 80px;
     --icon_height: 80px;
     --name_after_width: 32px;
-    --name_after_height: 32px;
+    --name_after_height: 40px;
     --ul_width: 180px;
     --ul_height: 180px;
     --about_width: 80px;
@@ -755,7 +755,7 @@ ul a img {
 .name_after {
   width: var(--name_after_width);
   height: var(--name_after_height);
-  text-align: center;
+  text-align: left;
   font-size: 4rem;
   top: calc(50% - var(--name_after_height)/2);
   left: calc(50% - 50vw + calc((100vw - (var(--ul_width) - var(--icon_width))/2 - var(--icon_width) - var(--name_width) - var(--name_after_width))/2) + calc((var(--ul_width) - var(--icon_width))/2) + var(--icon_width) + var(--name_width));
