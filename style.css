@@ -373,15 +373,17 @@ ul a img {
   animation: var(--twitter_animation);
   left: calc(var(--ul_width)/2 - var(--icons_width)/2);
 }
-#twitter:hover {
-  opacity: 0.8;
-  width: calc(var(--icons_width) * 1.1);
-  height: calc(var(--icons_height) * 1.1);
-  top: calc(0 - (var(--icons_height) * 1.1 - var(--icons_height))/2);
-  left: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
-}
-#twitter:hover {
-  top: calc(-1 * (var(--icons_height) * 1.1 - var(--icons_height))/2);
+@media screen and (min-width: 751px) {
+  #twitter:hover {
+    opacity: 0.8;
+    width: calc(var(--icons_width) * 1.1);
+    height: calc(var(--icons_height) * 1.1);
+    top: calc(0 - (var(--icons_height) * 1.1 - var(--icons_height))/2);
+    left: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+  }
+  #twitter:hover {
+    top: calc(-1 * (var(--icons_height) * 1.1 - var(--icons_height))/2);
+  }
 }
 
 #facebook {
@@ -389,12 +391,14 @@ ul a img {
   top: calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5);
   left: calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5);
 }
-#facebook:hover {
-  opacity: 0.8;
-  width: calc(var(--icons_width) * 1.1);
-  height: calc(var(--icons_height) * 1.1);
-  top: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
-  left: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+@media screen and (min-width: 751px) {
+  #facebook:hover {
+    opacity: 0.8;
+    width: calc(var(--icons_width) * 1.1);
+    height: calc(var(--icons_height) * 1.1);
+    top: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
+    left: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+  }
 }
 
 #github {
@@ -402,15 +406,17 @@ ul a img {
   animation: var(--github_animation);
   top: calc(var(--ul_width)/2 - var(--icons_width)/2);
 }
-#github:hover {
-  opacity: 0.8;
-  width: calc(var(--icons_width) * 1.1);
-  height: calc(var(--icons_height) * 1.1);
-  top: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
-  left: calc(0 - (var(--icons_width) * 1.1 - var(--icons_width))/2);
-}
-#github:hover {
-  left: calc(-1 * (var(--icons_width) * 1.1 - var(--icons_width))/2);
+@media screen and (min-width: 751px) {
+  #github:hover {
+    opacity: 0.8;
+    width: calc(var(--icons_width) * 1.1);
+    height: calc(var(--icons_height) * 1.1);
+    top: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
+    left: calc(0 - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+  }
+  #github:hover {
+    left: calc(-1 * (var(--icons_width) * 1.1 - var(--icons_width))/2);
+  }
 }
 
 #qiita {
@@ -419,12 +425,14 @@ ul a img {
   top: calc(var(--ul_height) - var(--icons_height)/2 - var(--ul_height)/4 + var(--icons_height)/5);
   left: calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5);
 }
-#qiita:hover {
-  opacity: 0.8;
-  width: calc(var(--icons_width) * 1.1);
-  height: calc(var(--icons_height) * 1.1);
-  top: calc(calc(var(--ul_height) - var(--icons_height)/2 - var(--ul_height)/4 + var(--icons_height)/5) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
-  left: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+@media screen and (min-width: 751px) {
+  #qiita:hover {
+    opacity: 0.8;
+    width: calc(var(--icons_width) * 1.1);
+    height: calc(var(--icons_height) * 1.1);
+    top: calc(calc(var(--ul_height) - var(--icons_height)/2 - var(--ul_height)/4 + var(--icons_height)/5) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
+    left: calc(calc(-1 * var(--icons_width)/2 + var(--ul_width)/4 - var(--icons_width)/5) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+  }
 }
 
 #hatena {
@@ -432,12 +440,14 @@ ul a img {
   top: calc(var(--ul_width) - var(--icons_width));
   left: calc(var(--ul_width)/2 - var(--icons_width)/2);
 }
-#hatena:hover {
-  opacity: 0.8;
-  width: calc(var(--icons_width) * 1.1);
-  height: calc(var(--icons_height) * 1.1);
-  top: calc(calc(var(--ul_width) - var(--icons_width)) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
-  left: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+@media screen and (min-width: 751px) {
+  #hatena:hover {
+    opacity: 0.8;
+    width: calc(var(--icons_width) * 1.1);
+    height: calc(var(--icons_height) * 1.1);
+    top: calc(calc(var(--ul_width) - var(--icons_width)) - (var(--icons_height) * 1.1 - var(--icons_height))/2);
+    left: calc(calc(var(--ul_width)/2 - var(--icons_width)/2) - (var(--icons_width) * 1.1 - var(--icons_width))/2);
+  }
 }
 
 @keyframes appear {
