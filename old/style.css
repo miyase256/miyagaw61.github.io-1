@@ -92,3 +92,12 @@ body{
 	padding: 15px 15px 0px 15px;
 }
 
+.subtitle{
+	font-size: 5rem;
+	color: white;
+}
+
+.normal{
+	font-size: 3rem;
+	color: white;
+}
