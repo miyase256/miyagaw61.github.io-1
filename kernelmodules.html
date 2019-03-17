@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>miyagaw61.about</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="old/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+	</head>
+    <body id="about_wrap">
+        <div class="container col-md-12 col-xs-12 z2 title"><div class="row">
+            <div class="col-md-12 title">[ サイボウズ・ラボ株式会社にて開発を手伝っているカーネルモジュール一覧 ]</div>
+            <a class="hover-green central col-md-12 col-xs-12 front" href="https://www.slideshare.net/starpos/walb" target="_blank">
+                <u>WalB</u>
+            </a>
+            <a class="hover-green central col-md-12 col-xs-12 front" href="https://blog.cybozu.io/entry/2016/01/14/080000" style="margin-bottom:1em;" target="_blank">
+                <u>crashblk</u>
+            </a>
+        </div></div>
+		<script>
+			var dW = $(window).width();
+			var dH = $(window).height();
+			$(function(){
+				$('.z2').css('top', dH/2.5);
+				//boxrand = Math.random()*100+200
+			});
+			function setup() {
+				createCanvas(dW, dH, WEBGL);
+				frameRate(60);
+			}
+			function draw() {
+				background(50, 50, 50);
+				//fill(50, 50, 50);
+				//rotateX(frameCount * 0.013);
+				//rotateY(frameCount * 0.013);
+				//box(boxrand, boxrand, boxrand);
+				//box(250, 250, 250);
+			}
+		</script>
+	</body>
+</html>
